@@ -42,39 +42,39 @@ class _SettingsPageState extends State<SettingsPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Configurações!'),
+        title: Text('Settings!'),
       ),
       drawer: MainDrawer(),
       body: Column(
         children: <Widget>[
           Container(
             padding: const EdgeInsets.all(20),
-            child: Text('Configurações', style: Theme.of(context).textTheme.headline6),
+            child: Text('Settings', style: Theme.of(context).textTheme.headline6),
           ),
           Expanded(
             child: ListView(
               children: [
                 _createSwitch(
-                  'Sem Glutén',
-                  'Só exibe refeições sem glútem!',
+                  'Gluten free',
+                  'Only display gluten-free meals!',
                   settings!.isGlutenFree!,
                   (value) => setState(() => settings!.isGlutenFree = value),
                 ),
                 _createSwitch(
-                  'Sem Lactose',
-                  'Só exibe refeições sem lactose!',
+                  'Lactose Free',
+                  'Only displays lactose-free meals!',
                   settings!.isLactoseFree!,
                   (value) => setState(() => settings!.isLactoseFree = value),
                 ),
                 _createSwitch(
-                  'Vegana',
-                  'Só exibe refeições veganas!',
+                  'Vegan',
+                  'Only displays vegan meals!',
                   settings!.isVegan!,
                   (value) => setState(() => settings!.isVegan = value),
                 ),
                 _createSwitch(
-                  'Vegetariana',
-                  'Só exibe refeições vegetarianas!',
+                  'Vegetarian',
+                  'Only displays vegetarian meals!',
                   settings!.isVegetarian!,
                   (value) => setState(() => settings!.isVegetarian = value),
                 ),

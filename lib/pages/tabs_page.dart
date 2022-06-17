@@ -22,11 +22,11 @@ class _TabsPageState extends State<TabsPage> {
     super.initState();
     _pages = [
       {
-        'title': 'Lista de Categorias',
+        'title': 'Category List',
         'page': CategoriesPage(),
       },
       {
-        'title': 'Meus Favoritos',
+        'title': 'My Favorites',
         'page': Favorite(widget.favoriteMeals),
       },
     ];
@@ -56,8 +56,8 @@ class _TabsPageState extends State<TabsPage> {
           type: BottomNavigationBarType.fixed,
           backgroundColor: Theme.of(context).colorScheme.primary,
           items: [
-            BottomNavigationBarItem(icon: Icon(Icons.category), label: 'Categorias'),
-            BottomNavigationBarItem(icon: Icon(Icons.star), label: 'Favoritos'),
+            BottomNavigationBarItem(icon: Icon(Icons.category), label: 'Categories'),
+            BottomNavigationBarItem(icon: Icon(Icons.star), label: 'Favorites'),
           ]),
     );
   }

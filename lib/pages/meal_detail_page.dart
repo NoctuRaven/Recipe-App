@@ -50,7 +50,7 @@ class MaelDetailPage extends StatelessWidget {
                 fit: BoxFit.cover,
               ),
             ),
-            _createSectionTitle(context, 'Ingredientes'),
+            _createSectionTitle(context, 'Ingredients'),
             _createSectionContainer(
               ListView.builder(
                 itemCount: meal.ingredients!.length,
@@ -65,7 +65,7 @@ class MaelDetailPage extends StatelessWidget {
                 },
               ),
             ),
-            _createSectionTitle(context, 'Passos'),
+            _createSectionTitle(context, 'Steps'),
             _createSectionContainer(
               ListView.builder(
                 itemCount: meal.steps!.length,

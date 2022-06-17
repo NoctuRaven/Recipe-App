@@ -48,7 +48,7 @@ class _MyAppState extends State<MyApp> {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Vamos cozinhar ?',
+      title: 'Let\'s cook ',
       theme: ThemeData(
           canvasColor: const Color.fromRGBO(255, 254, 229, 1),
           fontFamily: 'Raleway',
