@@ -1,17 +1,16 @@
 # Recipe-App
 
-A new Flutter project.
+[Layout](https://github.com/NoctuRaven/Recipe-App/blob/main/lib/assets/images/RecipeApp001.png)
 
-## Getting Started
+## About this project
 
-This project is a starting point for a Flutter application.
+This was one of my first projects in Flutter. This app is a cookbook, containing a range of dishes and their peculiarities.
 
-A few resources to get you started if this is your first Flutter project:
+## Features
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+° Each dish has its price, complexity and preparation time, displayed.
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+° The recipes can be filtered by "gluten-free", "lactose-free", "Vagano", and "vegetarian".
+
+° It is possible to favorite your recipe and store it in another list.
 
