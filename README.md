@@ -1,6 +1,8 @@
 # Recipe-App
 
-[Layout](https://github.com/NoctuRaven/Recipe-App/blob/main/lib/assets/images/RecipeApp001.png)
+<p align="center">
+  <img src="https://github.com/NoctuRaven/Recipe-App/blob/main/lib/assets/images/RecipeApp001.png" width="350">
+</p>
 
 ## About this project
 
